@@ -1,0 +1,295 @@
+/* El cuerpo */
+*{
+    margin: 0;
+    padding: 0;
+}
+header h2{
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+    background-color: #001220;
+}
+
+/*Nav*/
+nav{
+    font-size: 18px;
+    font-weight: bolder;
+    color: hsl(218, 15%, 60%);
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    
+    cursor: default;
+    user-select: none;
+    
+}
+.moverNav{
+    display: inline-flex;
+    position: absolute;
+    left: calc(50% - 190px);
+    top: 60%;
+    
+}
+
+.selection{
+    transition: all 380ms ease-in-out; /*Estilo de transición*/
+    padding: 0 50px;
+}
+
+.selection:hover{
+    border-radius: 3px;
+    background-color: #5367b6;
+    box-shadow: 0px 1px 26px 0.1px rgba(118, 155, 255, 0.782);   /*Se modifica para que se pronuncie el efecto */
+    color: aliceblue;
+    transition: scale(110px);
+}
+
+/*Contenedores*/
+.contenedorLogo{
+    width: auto;
+    height: 200px;
+    position: absolute; /*Se pone como absolute debido a que es el padre*/
+
+    top: 0%;  /*Para centralizar*/
+    left: 50%;
+
+    transform: translate(-50%, -30%);
+}
+
+.contenedorLogo .logo{
+    position: absolute;
+    top: 0%;
+    left: calc(50% - 230px);
+}
+
+ .subtitlo{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    top: 190%;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 555;
+}
+
+/*Svg config*/
+.principalView{
+    aspect-ratio: 960/340;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1{
+    background-image: url('../svg/Header.svg');
+}
+
+
+.InfoView{
+    aspect-ratio: 960/450;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -25%;
+}
+
+.layer2{
+    background-image: url('../svg/Mission.svg');
+    
+}
+
+/*Fondo body info about us*/
+.contenedorInfoUs{
+    position: relative;
+    top: -9%;
+}
+
+body .fondoInfo{
+    width: 100%;
+    height: 350px;
+    background-color: #2a588b;
+
+    
+    text-align: center;
+    align-content: center;
+}
+
+.fondoInfo h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 4%;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+.subrayado{
+    width: 200px;
+    background-color: aqua;
+}
+
+.fondoInfo h2{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.fondoInfo p{
+    font-size: 18px;
+    font-weight: 555;
+    margin: 10px 0;
+    padding: 0 100px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+/*Misión*/
+.contenedorMission{
+    position: relative;
+    width: auto;
+    height: 400px;
+}
+
+.infoMission{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    top: 35%;
+}
+
+.infoMission h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 4%;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+.infoMission p{
+    font-size: 18px;
+    font-weight: 555;
+    margin: 10px 0;
+    padding: 0 100px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+/*Actividades*/
+.contenedoresActividades{
+    position: relative;     /*Notar que es relative debido a que herendan de body quien es el absolute*/
+    display: grid;
+    width: auto;
+    height: 400px;
+    text-align: center;
+    align-content: center;
+    padding: 150px 0;
+    top: 120px;
+}
+
+.contenedoresActividades .nombresServicios{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contenedoresActividades .espacio{
+    margin: 20px 250px;
+}
+
+.contenedoresActividades .barco{
+    position: relative;
+    top: 60px;
+}
+
+.contenedoresActividades .votar{
+    position: relative;
+    top: 40px;
+}
+
+/*Curva Info about us*/
+.curve1 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curve1 svg {
+    position: relative;
+    width: calc(101% + 1.3px);
+    height: 100px;
+    transform: rotateY(360deg);
+}
+
+.curve1 .shape-fill {
+    fill: #2A588B;
+}
+
+/*Extra*/
+hr{
+    position: absolute;
+    border: 2px solid rgba(42, 148, 197, 0.692);
+    width: 900px;
+    left: calc(50% - 460px);
+    top:130%;
+}
+
+/*Tarjeta tipo cristal*/
+.tarjeta{
+    width: 20px;
+    width:300px;
+    height:380px;
+    border-radius:13px;
+    background: rgba(255,255,255,0.070);
+    box-shadow: 0 8px 32px 0 rgba(64, 72, 173, 0.3);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 50px 0px;
+
+    transition: all 380ms ease-in-out; /*Estilo de transición*/
+    font-size: 13.5px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    cursor: default;
+    user-select: none;
+}
+
+.tarjeta:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 1px 30px 0.01px rgba(201, 201, 201, 0.4);   /*Se modifica para que se pronuncie el efecto */
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
+.contenedorA{
+    position: absolute;
+    left: calc(50% - 460px);
+    
+}
+.contenedorB{
+    position: absolute;
+    left: calc(50% - -142px);
+}
+
+.contenedorA p{
+    position: relative;
+    padding: 0 25px;
+    top: 25%;
+}
+
+.contenedorB p{
+    position: relative;
+    padding: 0 25px;
+    top: 18%;
+}
