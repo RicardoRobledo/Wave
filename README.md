@@ -17,8 +17,8 @@ This is a prototype of contribution project to save marine life where users can 
 
 ## Authors ✒️
 
-- Ricardo Uribe Valencia - Backend developer - [RicardoUValencia](https://github.com/RicardoUValencia)
 - Abel Silverio Perez - Scrum master - [Abelsilveriop](https://github.com/Abelsilveriop)
+- Ricardo Uribe Valencia - Backend developer - [RicardoUValencia](https://github.com/RicardoUValencia)
 - Omar Emilio Frias Romero - Product owner - [omarfrias-maker](https://github.com/omarfrias-maker)
 - Fredin Alberto Vázquez - Frontend developer - [FredinVazquez](https://github.com/FredinVazquez)
 - Ricardo Robledo - Backend developer - [RicardoRobledo](https://github.com/RicardoRobledo)
