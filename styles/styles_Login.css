@@ -1,0 +1,145 @@
+/* El cuerpo */
+body{
+    margin: 0;
+    padding: 0;
+    background: url("./Images/LoginBackground.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*Modificación de color de imagen de usuario*/
+.imgUser {
+    filter: opacity(0.3) drop-shadow(0 0 0 #4c97d4  ) brightness(3.3);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, rgb(0,0,0,.3));
+}
+
+/*Tarjeta tipo cristal*/
+.tarjeta{
+    width: 20px;
+    width:300px;
+    height:380px;
+    border-radius:13px;
+    background: rgba(255,255,255,0.070);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.4);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.06);
+}
+
+/*Estilos de los inputs*/
+.estiloInput{
+    border-radius:5px;
+    border: 0px solid rgba(255,255,255,0.06);
+    width: 250px;
+    height:24px;
+}
+
+/*Como quiero tener de fondo a esa tarjeta tipo glass se debe de entonces tener como contenedor realmente
+o sea usar esa tarjeta como contenedor*/
+
+/*Posición del contenedor*/
+.contenedorLogin{
+    width: 320px;
+    height: 420px;
+    position: absolute; /*Se pone como absolute debido a que es el padre*/
+
+    top: 50%;  /*Para centralizar*/
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+
+    padding: 130px 30px; /*Esto es para tener un espacio dentro del contendor y no afuera*/ 
+}
+
+/*Elementos dentro del contenedor*/
+.contenedorLogin .imgUser{
+    position:absolute;
+    top: 20px;
+    left: calc(50% - 60px); /*Se realiza el cálculo de la posición por la derecha, horizontalmente*/
+}
+
+.contenedorLogin .titulo{
+    margin: 0;
+    padding: 0 0 23px;  /*Qué tan alejado esté de los demás elementos abajo de el*/
+
+    text-align: center; /*Se alinea el texto al centro*/
+    font-size: 15px;
+    font-weight: 555;
+    word-spacing:4px;
+    color: #102738;
+
+    font-size:18px;
+}
+
+.contenedorLogin label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display:block;  /*Para que lo ponga en lista*/
+    font-size:15px;
+    padding: 0 0 3px;
+}
+
+.contenedorLogin input{
+    margin-bottom: 22px; /*Espaciamiento constante para cada elemento*/
+}
+
+.contenedorLogin input[type="text"], .contenedorLogin input[type="password"]{
+    border: none; /*Quitar el borde directamente*/
+    border-bottom: 1px solid #bbd7ed;
+
+    background: transparent;    /*Para hacerlo transperante */
+    outline: none;
+    color:black;
+    font-size:13px;
+    
+}
+
+/*Botón de acceder*/
+.contenedorLogin input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height:25px;
+    width: 170px;
+    color: #000; /*Letras*/
+
+    background-color:#f1f5ff; /*Fondo del botón*/
+    transition: all 380ms ease; /*Estilo de transición*/
+    
+    font-size:13px;
+    border-radius: 10px;
+
+    position:absolute;
+    top: 330px;
+    left: calc(50% - 90px); /*Se realiza el cálculo de la posición por la derecha, horizontalmente*/
+
+}
+
+.contenedorLogin input[type="submit"]:hover{
+    background-color: #254470;
+    box-shadow: 0px 1px 30px 0.01px rgba(185, 237, 209, 0.87);   /*Se modifica para que se pronuncie el efecto */
+    color: rgb(255, 255, 255);
+    transition: scale(110px);
+}
+
+/*Ahora el registro*/
+.contenedorLogin a{
+    margin:0 -10px;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 20px;
+    color: #f1f5ff;
+    position:absolute;
+    top: 375px;
+    
+}
+
+.contenedorLogin a:hover {
+    color: #92c9f0;
+  }
