@@ -1,0 +1,196 @@
+/* El cuerpo */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+    
+    
+    background-image: url(../svg/gradientFon.svg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.waves0{
+    aspect-ratio: 960/540;
+    position: absolute;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.waves1{
+    aspect-ratio: 960/590;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body .layer1{
+    position: absolute;
+    background-image: url('../svg/circles.svg');
+    
+    background-repeat: repeat;
+}
+
+body .layer11{
+    position: absolute;
+    background-image: url('../svg/circles.svg');
+    top: 140%;
+    transform: rotate(180deg);
+}
+
+body .layer2{
+    position: absolute;
+    background-image: url('../svg/waveFront.svg');
+}
+
+.titulo h1{
+    position: relative;
+    font-size: 60px;
+    padding: 80px;
+    text-align: center;
+    user-select: none;
+}
+
+/*Contenedor principal*/
+.contenedor{
+    width: auto;
+    height: 1300px;
+    position: absolute;
+    top: 60%;
+    left: 6%;
+}
+
+.contenedor .tarjeta p{
+    font-size: 10px;
+}
+
+/*Tarjeta tipo cristal*/
+.tarjeta{
+    width:1000px;
+    height:980px;
+    border-radius:13px;
+    background: rgba(255,255,255,0.070);
+    box-shadow: 0 8px 32px 0 rgba(219, 219, 219, 0.384);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(146, 161, 228, 0.06);
+    padding: 60px 60px;
+    font-size: 13.5px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    cursor: default;
+    user-select: none;
+}
+
+/*Estilos de los inputs*/
+.estiloInput{
+    border-radius:5px;
+    border: 0px solid rgba(255,255,255,0.06);
+    width: 250px;
+    height:24px;
+}
+
+.contenedor label{
+    margin: 0;
+    padding: 0;
+    font-weight: 222;
+    display:block;  /*Para que lo ponga en lista*/
+    font-size:16px;
+    padding: 50px 40px 15px;
+    color: aliceblue;
+}
+
+.contenedor input{
+    position: relative;
+    left: 10%;
+    margin-bottom: 30px; /*Espaciamiento constante para cada elemento*/
+    text-align: center;
+}
+
+.contenedor input[type="text"]{
+    border: none; /*Quitar el borde directamente*/
+    border-bottom: 1px solid #bbd7ed;
+
+    width: 80%;
+    background: transparent;    /*Para hacerlo transperante */
+    outline: none;
+    color:rgb(255, 255, 255);
+    font-size:13px;
+    transition: all 200ms ease-in-out; /*Estilo de transición*/
+}
+
+.contenedor input[type="text"]:hover{
+    box-shadow: 0px 8px 8px 0px rgba(131, 171, 194, 0.39);   /*Se modifica para que se pronuncie el efecto */
+    color: rgb(255, 255, 255);
+    transition: scale(110px);
+
+}
+
+input[type="checkbox"]{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: 25px;
+}
+
+.terminos{
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    top: -50px;
+    left: -10px;
+    align-content: center;
+}
+
+/*Ahora el registro*/
+.contenedor a{
+    position: relative;
+    text-decoration: none;
+    font-size: 11px;
+    color: #f1f5ff;
+    top: -50px;
+    left: 96px;
+}
+
+.contenedor a:hover{
+    color: #f4a4ff;
+}
+
+
+.contenedor input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height:35px;
+    width: 400px;
+    color: #000; /*Letras*/
+
+    background-color:#d2dfff42; /*Fondo del botón*/
+    transition: all 380ms ease-in-out; /*Estilo de transición*/
+    
+    font-size:20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 10px;
+    position: relative;
+    left: 15%; /*Se realiza el cálculo de la posición por la derecha, horizontalmente*/
+    top: 20px;
+    box-shadow: 0px 1px 30px 0.01px rgba(54, 54, 54, 0.6);
+}
+
+.contenedor input[type="submit"]:hover{
+    background-color: rgb(110, 152, 192);
+    box-shadow: 0px 1px 30px 0.01px rgba(93, 171, 216, 0.87);   /*Se modifica para que se pronuncie el efecto */
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
