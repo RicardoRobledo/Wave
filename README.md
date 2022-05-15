@@ -8,7 +8,7 @@ This is a prototype of contribution project to save marine life where users can 
 ## Made up with 🛠️
 - HTML - HyperText Markup Language
 - CSS - Cascading Style Sheets
-- MySQL - Database
+- [MySQL](https://www.mysql.com/) - Database
 - [CleverCloud](https://www.clever-cloud.com/) - Free hosting
 
 
