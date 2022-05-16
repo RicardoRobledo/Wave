@@ -233,7 +233,7 @@ hr{
     position: relative;
     width: auto;
     height: 50px;
-    top: 20%;
+    top: 10%;
     display: inline-flex;
     left: calc(50% - 300px);
     cursor: default;
@@ -265,4 +265,19 @@ hr{
 
 .peticion1 p{
     padding: 20px 30px;
+}
+
+.contenedor4{
+    text-align: center;
+    align-content: center;
+    position: relative;
+    width: auto;
+    height: 40px;
+    top: 5px;
+    display: inline-flex;
+    left: calc(50% - 80px);
+    cursor: default;
+    user-select: none;
+    text-align: center;
+    align-content: center;
 }

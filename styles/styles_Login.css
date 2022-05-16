@@ -101,7 +101,7 @@ o sea usar esa tarjeta como contenedor*/
 }
 
 /*Botón de acceder*/
-.contenedorLogin input[type="submit"]
+.contenedorLogin input[type="button"]
 {
     border: none;
     outline: none;
@@ -121,7 +121,7 @@ o sea usar esa tarjeta como contenedor*/
 
 }
 
-.contenedorLogin input[type="submit"]:hover{
+.contenedorLogin input[type="button"]:hover{
     background-color: rgb(110, 152, 192);
     box-shadow: 0px 1px 30px 0.01px rgba(93, 171, 216, 0.87);   /*Se modifica para que se pronuncie el efecto */
     color: rgb(255, 255, 255);

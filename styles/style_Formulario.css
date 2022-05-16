@@ -69,7 +69,7 @@ body .layer2{
     position: absolute;
     top: 60%;
     left: 6%;
-    
+
 }
 
 .contenedor .tarjeta p{
@@ -168,7 +168,7 @@ input[type="checkbox"]{
 }
 
 
-.contenedor input[type="submit"]
+.contenedor input[type="button"]
 {
     border: none;
     outline: none;
@@ -189,9 +189,15 @@ input[type="checkbox"]{
     box-shadow: 0px 1px 30px 0.01px rgba(54, 54, 54, 0.6);
 }
 
-.contenedor input[type="submit"]:hover{
+.contenedor input[type="button"]:hover{
     background-color: rgb(110, 152, 192);
     box-shadow: 0px 1px 30px 0.01px rgba(93, 171, 216, 0.87);   /*Se modifica para que se pronuncie el efecto */
     color: rgb(255, 255, 255);
     transform: scale(1.05);
+}
+
+
+
+.opciones{
+    position: relative;
 }
