@@ -22,3 +22,5 @@ This is a prototype of contribution project to save marine life where users can 
 - Omar Emilio Frias Romero - Product owner - [omarfrias-maker](https://github.com/omarfrias-maker)
 - Fredin Alberto Vázquez - Frontend developer - [FredinVazquez](https://github.com/FredinVazquez)
 - Ricardo Robledo - Backend developer - [RicardoRobledo](https://github.com/RicardoRobledo)
+
+Video: https://www.tiktok.com/@omarfrias77/video/7098129666267008261
