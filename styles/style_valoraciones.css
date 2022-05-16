@@ -1,0 +1,268 @@
+/* El cuerpo */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+    
+    
+    background-image: url(../svg/gradientFon.svg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Waves svg*/
+.waves0{
+    aspect-ratio: 960/540;
+    position: absolute;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body .layer1{
+    background-image: url('../svg/wavesQA.svg');
+    top: -40%;
+}
+
+.waves1{
+    aspect-ratio: 960/540;
+    position: absolute;
+    width: 100%;
+    top:70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body .layer2{
+    background-image: url('../svg/waveFront.svg');
+    
+}
+
+.waves2{
+    aspect-ratio: 960/540;
+    position: absolute;
+    width: 100%;
+    top: -30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body .layer3{
+    background-image: url('../svg/polygons.svg');
+    
+}
+
+/*Lugar de propuestas*/
+body .contenedor{
+    position: relative;
+    width: auto;
+    height: 200px;
+    top: 60%;
+}
+
+.contenedor h2{
+    text-align: center;
+    font-size: 30px;
+    user-select: none;
+}
+
+/*Tarjeta tipo cristal*/
+.contenedor .tarjeta{
+    position: relative;
+    left: calc(30% - 50px);
+
+    width:650px;
+    height:50px;
+    border-radius:13px;
+    background: rgba(255,255,255,0.020);
+    box-shadow: 0 8px 30px 0 rgba(219, 219, 219, 0.384);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(146, 161, 228, 0.06);
+    padding: 20px 10px;
+    font-size: 13.5px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    cursor: default;
+    user-select: none;
+}
+
+.tarjeta2{
+    position: relative;
+
+    width:auto;
+    height:300px;
+    border-radius:13px;
+    
+    background-image: url(../svg/fontQA.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.608);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(30, 33, 48, 0.06);
+    padding: 20px 10px;
+    font-size: 13.5px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    cursor: default;
+    user-select: none;
+}
+
+
+/*Peticiones*/
+
+.peticion1{
+    position: relative;
+    width: auto;
+    height: 400px;
+    top: 55%;
+    padding: 0 50px;
+}
+.peticion1 .nombre{
+    position: relative;
+    font-size: 14px;
+    padding: 5px 40px;
+}
+.peticion1 i{
+    position: absolute;
+    padding: 6px 18px;
+}
+
+/*Titulo*/
+.titulo{
+    text-align: center;
+    align-content: center;
+    padding: 0 60px;
+}
+
+
+
+.titulo h1{
+    position: relative;
+    font-size: 60px;
+    padding-top: 40px;
+
+    padding-bottom: 50px;
+    text-align: center;
+    user-select: none;
+}
+
+.titulo p{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    user-select: none;
+}
+
+/*Curvas*/
+.curva1 {
+    position: relative;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curva1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.curva1 .shape-fill {
+    fill: #1e395f;
+}
+
+
+/*Otras solicitudes*/
+.contenedor2{
+    position: relative;
+    width: 350px;
+    height: 50px;
+    top: 50%;
+    display: inline-flex;
+    left: calc(50% - 190px);
+    cursor: default;
+    user-select: none;
+    text-align: center;
+    align-content: center;
+    padding: 0 100px;
+    font-size: 18px;
+}
+.selection{
+    position: relative;
+    transition: all 380ms ease-in-out; /*Estilo de transición*/
+    align-content: center;
+    padding: 15px 10px;
+}
+
+.selection:hover{
+    border-radius: 3px;
+    background-color: #53a7b6;
+    box-shadow: 0px 1px 26px 0.1px rgba(118, 155, 255, 0.782);   /*Se modifica para que se pronuncie el efecto */
+    color: aliceblue;
+    transition: scale(110px);
+}
+
+/*Extra*/
+hr{
+    position: absolute;
+    border: 2px solid rgba(28, 137, 151, 0.493);
+    width: 600px;
+}
+
+.contenedor3{
+    position: relative;
+    width: auto;
+    height: 50px;
+    top: 20%;
+    display: inline-flex;
+    left: calc(50% - 300px);
+    cursor: default;
+    user-select: none;
+    text-align: center;
+    align-content: center;
+    padding: 0 100px;
+}
+
+.selection2{
+    position: relative;
+    transition: all 380ms ease-in-out; /*Estilo de transición*/
+    align-content: center;
+    padding: 15px 10px;
+}
+
+.selection2:hover{
+    border-radius: 3px;
+    background-color: #53b69d;
+    box-shadow: 0px 1px 26px 0.1px rgba(118, 155, 255, 0.782);   /*Se modifica para que se pronuncie el efecto */
+    color: aliceblue;
+    transition: scale(110px);
+}
+
+.datos{
+    font-size: 10px;
+    padding: 20px 10px;
+}
+
+.peticion1 p{
+    padding: 20px 30px;
+}
