@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 
-    
+    <script src="js/redireccion.js"> </script>
 
 </head>
 
@@ -33,8 +33,8 @@
     </div>
     
     <nav class="moverNav">
-        <div class="selection">Proponer idea</div>
-        <div class="selection">Votar idea</div>
+        <div onclick="rForms();" class="selection">Proponer idea</div>
+        <div onclick="rVote();" class="selection">Votar idea</div>
     </nav>
 
 </header>
@@ -78,7 +78,7 @@
     
     <section class="contenedoresActividades espacio">
         
-        <div class="contenedorA tarjeta ">
+        <div onclick="rForms();" class="contenedorA tarjeta ">
             <div class="nombresServicios "> Rescatar</div>
             <img src="./Images/Ship.png" alt="" width="170px" class=" barco">
             <p>
@@ -88,7 +88,7 @@
             </p>
         </div>
         
-        <div class="contenedorB tarjeta "> 
+        <div onclick="rVote();" class="contenedorB tarjeta "> 
             <div class="nombresServicios "> Votar</div>
             <img src="./Images/Vote.png" alt="" width="120px" class="votar">
             <p>
