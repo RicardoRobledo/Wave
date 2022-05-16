@@ -1,4 +1,5 @@
 # Wave
+
 This is a prototype of contribution project to save marine life where users can post places threatened by pollution and assess proposals
 
 
@@ -6,6 +7,7 @@ This is a prototype of contribution project to save marine life where users can 
 
 
 ## Made up with 🛠️
+
 - HTML - HyperText Markup Language
 - CSS - Cascading Style Sheets
 - [MySQL](https://www.mysql.com/) - Database
@@ -23,4 +25,10 @@ This is a prototype of contribution project to save marine life where users can 
 - Fredin Alberto Vázquez - Frontend developer - [FredinVazquez](https://github.com/FredinVazquez)
 - Ricardo Robledo - Backend developer - [RicardoRobledo](https://github.com/RicardoRobledo)
 
-Video: https://www.tiktok.com/@omarfrias77/video/7098129666267008261
+
+<br>
+
+
+## Video
+
+https://www.tiktok.com/@omarfrias77/video/7098129666267008261
