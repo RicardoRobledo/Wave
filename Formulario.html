@@ -15,7 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,700;1,200;1,300;1,500&display=swap" rel="stylesheet">
-    
+
+<script src="js/redireccion.js"> </script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </head>
 
@@ -59,7 +61,10 @@
                 <div class="terminos">He leído y acepto los términos de uso y condiciones para usar el servicio de Wave ©2022-2023</div>
                 <br><a href="">Términos y condiciones</a>
 
-                <input type="submit" value="Acceder">
+                <div class="opciones">
+                    <input type="button" value="Acceder" onclick="aviso();">
+                    <input type="button" value="Cancelar" onclick="rHomepage();">
+                </div>
                 
 
             </form>
