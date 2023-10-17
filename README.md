@@ -31,4 +31,4 @@ This is a prototype of contribution project to save marine life where users can 
 
 ## Video
 
-https://www.tiktok.com/@omarfrias77/video/7098129666267008261
+https://youtube.com/shorts/6gDovrZUdqk?feature=shared
